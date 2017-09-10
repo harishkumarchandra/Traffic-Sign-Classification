@@ -10,7 +10,6 @@
 [undistorted]: ./doc/undistorted.png "Original"
 [distorted]: ./doc/distorted.png "Distorted"
 [endofnopassing]: ./doc/endofnopassing.png "End of no passing sign"
-[featuremaps]: ./doc/featuremaps.png "Feature maps"
 
 [bars1]: ./doc/bars1.png "Top 5 Softmax Probabilities"
 [bars2]: ./doc/bars2.png "Top 5 Softmax Probabilities"
@@ -314,12 +313,5 @@ For the eighth image, the model is completely confident (100%), and correct.
 | 0.0000 | General caution |
 | 0.0000 | Bicycles crossing |
 
-#### Reference
-
-[1] Lecun(1998): [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
-
-[2] Sermanet(2011): [Traffic Sign Recognition with Multi-Scale Convolutional Networks](http://yann.lecun.com/exdb/publis/pdf/sermanet-ijcnn-11.pdf)
-
-[3] Ciresan (2012): [Multi-Column Deep Neural Network for Traffic Sign Classification](http://people.idsia.ch/~juergen/nn2012traffic.pdf)
 
 
