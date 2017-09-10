@@ -199,7 +199,7 @@ Here are the results of the prediction:
 | Image			|		Prediction			| 
 |:---------------------:|:---------------------------------------------:| 
 | End of all speed and passing limits | End of all speed and passing limits |
-| No passing | ~~Priority Road~~ |
+| No passing | ~~End of all speed and passing limits~~ |
 | Road work | Road work |
 | Turn right ahead | Turn right ahead |
 | Dangerous curve to the left | ~~Bumpy road~~ |
