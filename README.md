@@ -156,16 +156,11 @@ My final model results were:
 * Validation Accuracy = 0.991
 * Test Accuracy = 0.973
 
-
-I started out by creating an architecture which could clearly overfit the training data. (It converged to 1.0 training-accuracy in a couple of epochs, but the validation accuracy was much lower.
-Then I have added regulators until the overfitting was more-or-less eliminated. I added dropout operations between the fully connected layers. I also tried L2 regularization for the weights (in addition to the dropout), but it made the accuracy worse by a tiny amount.
-Then I have kept removing filters up to the point when the accuracy started decreasing.
-
 ### Test a Model on New Images
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-I have aquired images from the web and I also made some photos on the streets myself.
+I have aquired images from the web.
 I cut out the images similarly to the dataset, but I didn't pay attention to the exact size and position of the signs. I programmatically resized them to 32x32 (not keeping aspect ratio).
 
 ###### Photos from the web:
@@ -185,10 +180,6 @@ This picture might be hard to classify because it is from a strange perspective 
 ![Dangerous turn to the left?][dangerousleft]
 
 This is a very blurry image, at first even I didn't know which sign is it. It might be a photo or an artistic painting, of most likely the "Dangerous turn to the left" sign.
-
-##### Photos made by me
-
-In Hungary we have some traffic signs which are (almost) identical to the German ones.
 
 ![Privilaged road][myprivilagedroad]
 
