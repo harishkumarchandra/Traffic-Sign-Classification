@@ -152,9 +152,10 @@ I saved the model which had the best validation accuracy.
 The code for calculating the accuracy of the model is located in the twelfth cell of the Ipython notebook.
 
 My final model results were:
-* training set accuracy of 0.999
-* validation set accuracy of 0.983 
-* test set accuracy of 0.971
+* Training Accuracy = 1.000
+* Validation Accuracy = 0.991
+* Test Accuracy = 0.973
+
 
 I started out by creating an architecture which could clearly overfit the training data. (It converged to 1.0 training-accuracy in a couple of epochs, but the validation accuracy was much lower.
 Then I have added regulators until the overfitting was more-or-less eliminated. I added dropout operations between the fully connected layers. I also tried L2 regularization for the weights (in addition to the dropout), but it made the accuracy worse by a tiny amount.
