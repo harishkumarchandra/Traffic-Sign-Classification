@@ -40,7 +40,7 @@ Here is a link to my [project code](https://github.com/harishkumarchandra/Traffi
 
 #### 1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-The code for this step is contained in the third code cell of the IPython notebook.
+The code for this step is contained in the 2nd code cell of the IPython notebook.
 
 I used the numpy library to calculate summary statistics of the traffic
 signs data set:
@@ -53,7 +53,7 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
-The code for this step is contained in the fourth code cell of the IPython notebook.
+The code for this step is contained in the 3rd code cell of the IPython notebook.
 
 My submission contains a grid of images which includes randomly choosen images from 6 traffic sign types, 16 images for each type.
 
