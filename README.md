@@ -209,35 +209,35 @@ Here are the results of the prediction:
 | Traffic signals | Traffic signals |
 
 
-The model was able to correctly guess 6 of the 8 traffic signs, which gives an accuracy of 75%. This is lower than the test accuracy of 97%, however I would not draw conclusions from this very small (8 element) dataset.
+The model was able to correctly guess 6 of the 8 traffic signs, which gives an accuracy of 75%. 
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
 The code for making predictions on my final model is located in the thirteenth cell of the Ipython notebook.
 
-For the first image, the model is very confident (96%), and correct. The top five soft max probabilities were:
+For the first image, the model is very confident (100%), and correct. The top five soft max probabilities were:
 
 ![Top 5 Softmax Probabilities][bars1]
 
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------------------:| 
-| 0.9561 | End of all speed and passing limits |
-| 0.0437 | End of no passing |
-| 0.0001 | End of speed limit (80km/h) |
-| 0.0001 | Keep left |
+| 1.0000 | End of all speed and passing limits |
+| 0.0000 | End of no passing |
+| 0.0000 | End of speed limit (80km/h) |
+| 0.0000 | Keep left |
 | 0.0000 | Children crossing |
 
-For the second image, the model is relatively sure (64%) that we are looking at a Priority Road sign, but the correct answer is No passing which was not even in the top five guesses. Maybe the image was too skewed.
+For the second image, the model is relatively sure (49%) that we are looking at a End of all speed and passing limits, but the correct answer is No passing which was not even in the top five guesses. Maybe the image was too skewed.
 
 ![Top 5 Softmax Probabilities][bars2]
 
 | Probability         	|     Prediction	        		| 
 |:---------------------:|:---------------------------------------------:| 
-| 0.6373 | Priority road |
-| 0.3360 | End of no passing |
-| 0.0156 | End of all speed and passing limits |
-| 0.0108 | Speed limit (30km/h) |
-| 0.0001 | Roundabout mandatory |
+| 0.3408 | Priority road |
+| 0.0992 | End of no passing |
+| 0.4979 | End of all speed and passing limits |
+| 0.0351 | Traffic signals |
+| 0.0090 | No vehicles |
 
 For the third image, the model is completely confident (100%), and correct.
 
@@ -313,13 +313,6 @@ For the eighth image, the model is completely confident (100%), and correct.
 | 0.0000 | Road work |
 | 0.0000 | General caution |
 | 0.0000 | Bicycles crossing |
-
-#### Feature map visualization
-
-![End of no passing sign][endofnopassing]
-![Feature maps][featuremaps]
-
-In the visualization of the activations of the first convolutional layer, I have seen that different feature maps look for different edges, for example the 7th feature map is activated by diagonal edges, and the 8th feature map is activated by horizontal edges.
 
 #### Reference
 
