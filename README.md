@@ -111,8 +111,6 @@ Original and distorted image side-by-side
 
 The code for my final model is located in the seventh cell of the ipython notebook. 
 
-![MyNet (Very similar to LeNet)][network]
-
 My architecture is a deep convolutional neural network inspired by two existing architectures: one is LeNet[1], and the other is the one in Ciresan's paper[3].
 Its number and types of layers come from LeNet, but the relatively huge number of filters in convolutional layers came for Ciresan. Another important property of Ciresan's network is that it is multi-column, but my network contains only a single column. It makes it a little less accurate, but the training and predition is much faster.
 
