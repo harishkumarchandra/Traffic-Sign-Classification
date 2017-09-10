@@ -1,6 +1,5 @@
 # **Traffic Sign Recognition** 
 
-## Writeup
 
 [//]: # (Image References)
 
@@ -32,15 +31,10 @@
 [my30]: ./images/cut/my-speed-limit-30.jpg "Speed limit: 30km/h"
 [mytrafficsignals]: ./images/cut/my-traffic-signals.jpg "Traffic signals"
 
-## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
-
 ---
-### Writeup / README
+### Writeup
 
-#### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
-
-You're reading it and here is a link to my [project code](https://github.com/tomi92/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb).
+Here is a link to my [project code](https://github.com/harishkumarchandra/Traffic-Sign-Classification/blob/master/Traffic_Sign_Classifier.ipynb).
 
 ### Data Set Summary & Exploration
 
